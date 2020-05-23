@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-color-bar": "^0.1.2",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-keyboard-event-handler": "^1.5.4",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-tooltip": "^4.2.6",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
